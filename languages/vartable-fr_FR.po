@@ -1,0 +1,918 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Variations Table - Grid v1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-30 20:17+0200\n"
+"PO-Revision-Date: 2023-01-30 20:17+0200\n"
+"Last-Translator: Spyros Vlachopoulos <info@hostivate.com>\n"
+"Language-Team: Spyros Vlachopoulos <info@hostivate.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: grid_options_page.php:21 woo-variations-table.php:1878
+msgid "SKU"
+msgstr ""
+
+# @ vartable
+#: grid_options_page.php:22
+#, fuzzy
+msgid "Thumbnail"
+msgstr "Afficher les miniatures de produits"
+
+#: grid_options_page.php:23
+msgid "Stock"
+msgstr "Stock"
+
+#: grid_options_page.php:24 woo-variations-table.php:1877
+msgid "Price"
+msgstr "Prix"
+
+#: grid_options_page.php:25
+msgid "Total"
+msgstr "Total"
+
+# @ vartable
+#: grid_options_page.php:26 woo-variations-table.php:1547
+#, fuzzy
+msgid "Offer Image"
+msgstr "Ajouter une image"
+
+# @ vartable
+#: grid_options_page.php:27
+#, fuzzy
+msgid "Add to Cart Button"
+msgstr "Ajouter au panier"
+
+# @ vartable
+#: grid_options_page.php:28
+#, fuzzy
+msgid "Global Add to Cart Checkbox"
+msgstr "Affichage le bouton global Ajouter au panier"
+
+#: grid_options_page.php:29
+msgid "Quantity"
+msgstr "Quantité"
+
+#: grid_options_page.php:30 woo-variations-table.php:1879
+msgid "Weight"
+msgstr "Poids"
+
+#: grid_options_page.php:31
+msgid "Dimensions"
+msgstr "Dimensions"
+
+# @ vartable
+#: grid_options_page.php:32
+#, fuzzy
+msgid "Whishlist"
+msgstr "Ajouter l'icône liste d'envies (YITH WooCommerce Wishlist)"
+
+#: grid_options_page.php:33
+msgid "Gift Wrap"
+msgstr "Emballage cadeau"
+
+# @ vartable
+#: grid_options_page.php:34 woo-variations-table.php:2026
+#: woo-variations-table.php:2118
+msgid "Description"
+msgstr "Déscription"
+
+#: grid_options_page.php:35
+msgid "Shipping"
+msgstr ""
+
+#: grid_options_page.php:45
+msgid "Reset"
+msgstr ""
+
+#: grid_options_page.php:46
+msgid "Reset on deactivation "
+msgstr ""
+
+#: grid_options_page.php:47
+msgid "Disable Globally"
+msgstr "Désactiver Globalement"
+
+#: grid_options_page.php:48
+msgid "Categories Exclusion"
+msgstr "Exclusion des catégories"
+
+#: grid_options_page.php:49
+msgid "Roles Exclusion"
+msgstr "Exclusion des rôles"
+
+# @ vartable
+#: grid_options_page.php:50
+#, fuzzy
+msgid "Thumbnail Size"
+msgstr "Largeur des miniatures en pixels"
+
+# @ vartable
+#: grid_options_page.php:51 grid_options_page.php:302
+msgid "In Stock Text"
+msgstr "Texte pour les produits en stock"
+
+# @ vartable
+#: grid_options_page.php:52 grid_options_page.php:311
+#, fuzzy
+#| msgid "Backorder"
+msgid "Backorder Text"
+msgstr "Rupture de stock"
+
+# @ vartable
+#: grid_options_page.php:53 grid_options_page.php:319
+#, fuzzy
+#| msgid "Backorder"
+msgid "Backorder Style"
+msgstr "Rupture de stock"
+
+# @ vartable
+#: grid_options_page.php:54 grid_options_page.php:330
+msgid "Out of Stock Text"
+msgstr "Texte pour la rupture de stock"
+
+# @ vartable
+#: grid_options_page.php:55 grid_options_page.php:338
+msgid "Low Stock Text"
+msgstr "Saisissez le texte de stock bas"
+
+# @ vartable
+#: grid_options_page.php:56 grid_options_page.php:346
+msgid "Low Stock Threshold"
+msgstr "Saisissez la quantité de stock bas"
+
+#: grid_options_page.php:57
+msgid "Hide zero priced variations"
+msgstr "Masquer les zéro prix variations"
+
+#: grid_options_page.php:58 grid_options_page.php:365
+msgid "Hide Out of Stock Variations"
+msgstr ""
+
+#: grid_options_page.php:59 grid_options_page.php:376
+msgid "Treat zero quantity variations as Out of Stock"
+msgstr ""
+
+#: grid_options_page.php:60
+msgid "Offer Image File"
+msgstr ""
+
+#: grid_options_page.php:61
+msgid "Global Add to Cart Checkbox Status"
+msgstr ""
+
+#: grid_options_page.php:62
+msgid "Global Add to Cart Button Position"
+msgstr ""
+
+#: grid_options_page.php:63 grid_options_page.php:521
+msgid "Hide \"added to cart\" slide down notification"
+msgstr ""
+
+#: grid_options_page.php:64 grid_options_page.php:532
+msgid ""
+"Seconds that \"added to cart\" slide down notification should remain visible"
+msgstr ""
+
+#: grid_options_page.php:65
+msgid "Default Quantity"
+msgstr "Quantité par défaut"
+
+#: grid_options_page.php:66
+msgid "Display Quantity Controls ( - / + buttons)"
+msgstr ""
+
+#: grid_options_page.php:67
+msgid "Table position"
+msgstr "Position de la table"
+
+#: grid_options_page.php:68
+#, fuzzy
+#| msgid "Table position"
+msgid "Table priority"
+msgstr "Position de la table"
+
+#: grid_options_page.php:69
+msgid "Columns Order"
+msgstr "Ordre des colonnes"
+
+# @ vartable
+#: grid_options_page.php:70
+#, fuzzy
+msgid "Enable Ajax Add to Cart"
+msgstr "Afficher le bouton Ajouter au panier"
+
+#: grid_options_page.php:71
+msgid "Description Inline"
+msgstr ""
+
+#: grid_options_page.php:72
+msgid "Table Head"
+msgstr "Entête de Table"
+
+#: grid_options_page.php:73 grid_options_page.php:621
+msgid "Custom Table Head"
+msgstr "Personnalisé Entête de la Table "
+
+#: grid_options_page.php:74 grid_options_page.php:629
+msgid "Enable Sorting"
+msgstr "Activer le tri"
+
+#: grid_options_page.php:75
+#, fuzzy
+#| msgid "Enable Images Pop up - Zoom"
+msgid "Enable Images Popup - Zoom, Linking"
+msgstr "Activer les images pop-up - Zoom"
+
+#: grid_options_page.php:76 grid_options_page.php:270
+msgid "Hide empty cells on mobile"
+msgstr ""
+
+#: grid_options_page.php:77 grid_options_page.php:280
+#, fuzzy
+#| msgid "Disable for roles"
+msgid "Disable mobile responsiveness"
+msgstr "Désactiver pour les rôles"
+
+#: grid_options_page.php:78
+msgid "Attributes Sorting Settings"
+msgstr ""
+
+# @ vartable
+#: grid_options_page.php:114
+msgid "Variations Table Grid Settings"
+msgstr "Paramètres de la Grille de Variations"
+
+# @ default
+#: grid_options_page.php:120 grid_options_page.php:758
+msgid "Save Changes"
+msgstr "Sauver les changement"
+
+# @ vartable
+#: grid_options_page.php:125
+#, fuzzy
+msgid "General Settings"
+msgstr "Paramètres"
+
+#: grid_options_page.php:126
+#, fuzzy
+#| msgid "Columns Order"
+msgid "Column Order"
+msgstr "Ordre des colonnes"
+
+#: grid_options_page.php:127 grid_options_page.php:690
+#, fuzzy
+#| msgid "Enable Sorting"
+msgid "Sorting"
+msgstr "Activer le tri"
+
+#: grid_options_page.php:128
+msgid "Debug"
+msgstr ""
+
+#: grid_options_page.php:148
+msgid "Disable globally"
+msgstr "Désactiver Globalement"
+
+# @ vartable
+#: grid_options_page.php:150 grid_options_page.php:232
+#: grid_options_page.php:242 grid_options_page.php:273
+#: grid_options_page.php:283 grid_options_page.php:293
+#: grid_options_page.php:356 grid_options_page.php:367
+#: grid_options_page.php:378 grid_options_page.php:389
+#: grid_options_page.php:400 grid_options_page.php:411
+#: grid_options_page.php:421 grid_options_page.php:441
+#: grid_options_page.php:453 grid_options_page.php:464
+#: grid_options_page.php:475 grid_options_page.php:486
+#: grid_options_page.php:524 grid_options_page.php:543
+#: grid_options_page.php:556 grid_options_page.php:568
+#: grid_options_page.php:588 grid_options_page.php:599
+#: grid_options_page.php:611 grid_options_page.php:633
+#: grid_options_page.php:643 integrations/woocommerce-swatches.php:95
+#: integrations/yith-waiting-list.php:22 woo-variations-table.php:1846
+#: woo-variations-table.php:1854 woo-variations-table.php:1862
+#: woo-variations-table.php:1980 woo-variations-table.php:2069
+msgid "Yes"
+msgstr "Oui"
+
+# @ vartable
+#: grid_options_page.php:151 grid_options_page.php:233
+#: grid_options_page.php:243 grid_options_page.php:272
+#: grid_options_page.php:282 grid_options_page.php:294
+#: grid_options_page.php:357 grid_options_page.php:368
+#: grid_options_page.php:379 grid_options_page.php:390
+#: grid_options_page.php:401 grid_options_page.php:412
+#: grid_options_page.php:422 grid_options_page.php:442
+#: grid_options_page.php:454 grid_options_page.php:465
+#: grid_options_page.php:476 grid_options_page.php:487
+#: grid_options_page.php:523 grid_options_page.php:544
+#: grid_options_page.php:557 grid_options_page.php:569
+#: grid_options_page.php:589 grid_options_page.php:600
+#: grid_options_page.php:612 grid_options_page.php:632
+#: grid_options_page.php:644 integrations/woocommerce-swatches.php:96
+#: integrations/yith-waiting-list.php:23 woo-variations-table.php:1845
+#: woo-variations-table.php:1853 woo-variations-table.php:1861
+#: woo-variations-table.php:1979 woo-variations-table.php:2068
+msgid "No"
+msgstr "Non"
+
+# @ vartable
+#: grid_options_page.php:161
+#, fuzzy
+msgid "Disable in Categories"
+msgstr "Exclure une ou plusieurs catégories"
+
+#: grid_options_page.php:173
+msgid "Disable for roles"
+msgstr "Désactiver pour les rôles"
+
+#: grid_options_page.php:182
+msgid "Guest"
+msgstr "Visiteur"
+
+#: grid_options_page.php:189
+msgid "Beside image"
+msgstr "À côté de l’image"
+
+#: grid_options_page.php:190
+msgid "Under Image"
+msgstr "Sous l'image"
+
+#: grid_options_page.php:191
+msgid "On product summary"
+msgstr ""
+
+#: grid_options_page.php:192
+msgid "Product meta start"
+msgstr ""
+
+#: grid_options_page.php:193
+msgid "Product meta share"
+msgstr ""
+
+#: grid_options_page.php:194
+msgid "After product summary"
+msgstr ""
+
+#: grid_options_page.php:195
+msgid "After product"
+msgstr ""
+
+#: grid_options_page.php:196
+msgid "After tabs"
+msgstr ""
+
+#: grid_options_page.php:197
+msgid "After main content"
+msgstr ""
+
+#: grid_options_page.php:203
+msgid "Table Position"
+msgstr "Position des table"
+
+#: grid_options_page.php:218
+#, fuzzy
+#| msgid "Table Position"
+msgid "Table Priority"
+msgstr "Position des table"
+
+# @ vartable
+#: grid_options_page.php:227
+msgid "Enable / Disable Columns"
+msgstr "Activer / Désactiver les colonnes"
+
+# @ vartable
+#: grid_options_page.php:230
+msgid "Display SKU"
+msgstr "Afficher la référence du produit"
+
+# @ vartable
+#: grid_options_page.php:240
+msgid "Display Thumbnail"
+msgstr "Afficher les miniatures de produits"
+
+# @ vartable
+#: grid_options_page.php:251
+msgid "Thumbnail Width in Pixels"
+msgstr "Largeur des miniatures en pixels"
+
+#: grid_options_page.php:259
+msgid "Thumbnail Pop up - Zoom, Linking"
+msgstr ""
+
+#: grid_options_page.php:261
+msgid "Yes, enable zoom"
+msgstr ""
+
+#: grid_options_page.php:262
+msgid "No, disable zoom"
+msgstr ""
+
+#: grid_options_page.php:263
+msgid "Do not link at all"
+msgstr ""
+
+# @ vartable
+#: grid_options_page.php:291
+msgid "Display Stock"
+msgstr "Afficher le stock"
+
+# @ vartable
+#: grid_options_page.php:304
+msgid ""
+"Please use %n to display the quantity of the stock left on the above field, "
+"eg: \"Just %n left\""
+msgstr ""
+"Utiliser %n dans  le champ ci-dessus pour afficher la quantité de stock, "
+"exemple: \"il reste %n produits en stock\""
+
+#: grid_options_page.php:321
+msgid "text"
+msgstr ""
+
+#: grid_options_page.php:322
+msgid "pill"
+msgstr ""
+
+#: grid_options_page.php:354
+msgid "Hide Zero Priced Variations"
+msgstr ""
+
+# @ vartable
+#: grid_options_page.php:387
+msgid "Display Price"
+msgstr "Afficher le prix"
+
+#: grid_options_page.php:398
+msgid "Display Total"
+msgstr "Afficher Le total"
+
+#: grid_options_page.php:409
+#, fuzzy
+#| msgid "Display Dimensions"
+msgid "Display Shiping Class"
+msgstr "Afficher Dimensions"
+
+# @ vartable
+#: grid_options_page.php:419
+msgid "Display Quantity Field"
+msgstr "Afficher le champ quantité"
+
+#: grid_options_page.php:430
+msgid "Default Quantity Value"
+msgstr ""
+
+#: grid_options_page.php:439
+msgid "Display Quantity Controls"
+msgstr ""
+
+#: grid_options_page.php:451
+msgid "Display Weight"
+msgstr "Afficher le poids"
+
+#: grid_options_page.php:462
+msgid "Display Dimensions"
+msgstr "Afficher Dimensions"
+
+# @ vartable
+#: grid_options_page.php:473
+msgid "Display Add To Cart"
+msgstr "Afficher le bouton Ajouter au panier"
+
+# @ vartable
+#: grid_options_page.php:484
+msgid "Display Global Add To Cart"
+msgstr "Affichage le bouton global Ajouter au panier"
+
+#: grid_options_page.php:488
+msgid ""
+"No, but keep the buttons (all quantities greater than 0 will be added to the "
+"cart)"
+msgstr ""
+
+#: grid_options_page.php:496
+msgid "Global Add To Cart Status"
+msgstr ""
+
+#: grid_options_page.php:498
+msgid "Unchecked"
+msgstr ""
+
+#: grid_options_page.php:499
+msgid "Checked"
+msgstr ""
+
+#: grid_options_page.php:508
+msgid "Global Add To Cart Button Position"
+msgstr ""
+
+#: grid_options_page.php:510
+msgid "Bottom"
+msgstr "En bas"
+
+#: grid_options_page.php:511
+msgid "Top"
+msgstr "En haut"
+
+#: grid_options_page.php:512
+msgid "Both"
+msgstr "Tous les deux"
+
+#: grid_options_page.php:534
+msgid "Leave empty for the default 6 seconds"
+msgstr ""
+
+# @ vartable
+#: grid_options_page.php:541
+msgid "Display Wishlist"
+msgstr "Ajouter à ma  liste d'envies"
+
+# @ vartable
+#: grid_options_page.php:554
+msgid "Display Gift Wrap Option"
+msgstr "Afficher l'option Emballage cadeau"
+
+# @ vartable
+#: grid_options_page.php:566
+msgid "Display Image"
+msgstr "Afficher une image supplémentaire"
+
+# @ vartable
+#: grid_options_page.php:577
+msgid "Add Image"
+msgstr "Ajouter une image"
+
+# @ vartable
+#: grid_options_page.php:586
+msgid "Display Description"
+msgstr "Afficher la colonne déscription"
+
+#: grid_options_page.php:597
+msgid "Display Description Inline"
+msgstr ""
+
+# @ vartable
+#: grid_options_page.php:609
+#, fuzzy
+msgid "Display Table Head"
+msgstr "Afficher une image supplémentaire"
+
+#: grid_options_page.php:630
+msgid ""
+"It will have strange results if you will also add description per variation"
+msgstr ""
+
+# @ vartable
+#: grid_options_page.php:641
+msgid "Enable AJAX"
+msgstr "Permettre la fonction AJAX"
+
+# @ vartable
+#: grid_options_page.php:658
+msgid "Variations"
+msgstr "Variations"
+
+# @ vartable
+#: grid_options_page.php:664
+#, fuzzy
+#| msgid "Order Columns"
+msgid "Order of the Table Columns"
+msgstr "Trier les colonnes"
+
+# @ vartable
+#: grid_options_page.php:665
+#, fuzzy
+#| msgid ""
+#| "Please drag and drop the below list elements to order the columns of the "
+#| "table"
+msgid "Drag and drop the below list elements to order the columns of the table"
+msgstr ""
+"Faites un glisser/déposer pour trier les colonnes dans la liste ci-dessous"
+
+#: grid_options_page.php:689
+msgid "Attribute"
+msgstr ""
+
+#: grid_options_page.php:704
+msgid "Edit terms"
+msgstr ""
+
+#: grid_options_page.php:710
+#, fuzzy
+#| msgid "Default Quantity"
+msgid "Default"
+msgstr "Quantité par défaut"
+
+#: grid_options_page.php:711
+msgid "Float"
+msgstr ""
+
+#: grid_options_page.php:712
+msgid "Integer"
+msgstr ""
+
+#: grid_options_page.php:713
+msgid "String"
+msgstr ""
+
+#: grid_options_page.php:714
+msgid "String (case-insensitive)"
+msgstr ""
+
+#: grid_options_page.php:715
+msgid "As set on the terms list"
+msgstr ""
+
+#: grid_options_page.php:736
+msgid "Reset data?"
+msgstr ""
+
+#: grid_options_page.php:739
+msgid "Warning this will reset your plugin's settings "
+msgstr ""
+
+#: grid_options_page.php:746
+msgid "Delete data on deactivation?"
+msgstr ""
+
+#: grid_options_page.php:749
+msgid ""
+"Warning this will delete your plugin's settings when you deactivate your "
+"plugin "
+msgstr ""
+
+#: grid_options_page.php:765
+msgid "Hide this sidebar forever"
+msgstr ""
+
+#: grid_options_page.php:778
+msgid "More plugins to enhance your eshop"
+msgstr "Plus de plugins pour améliorer votre eshop"
+
+#: integrations/woocommerce-swatches.php:80
+msgid "Enable WooCommerce Swatches support"
+msgstr ""
+
+#: integrations/woocommerce-swatches.php:93
+msgid "Enable WooCommerce Swatches Support"
+msgstr ""
+
+#: integrations/yith-waiting-list.php:6
+msgid "Waiting List"
+msgstr ""
+
+#: integrations/yith-waiting-list.php:20
+msgid "Enable YITH Waiting List"
+msgstr ""
+
+#: woo-variations-table.php:468
+msgid "Admin only message: no product object found"
+msgstr ""
+
+#: woo-variations-table.php:475 woo-variations-table.php:598
+msgid "Admin only message: this is not a variable product"
+msgstr ""
+
+# @ woocommerce-product-gift-wrap
+#: woo-variations-table.php:551
+#, php-format
+msgid "Gift wrap this item for %s?"
+msgstr "Emballage cadeau pour %s?"
+
+#: woo-variations-table.php:620
+msgid "Now go add some variable products!"
+msgstr ""
+
+# @ vartable
+#: woo-variations-table.php:807 woo-variations-table.php:1507
+msgid "Add selected to cart"
+msgstr "Ajouter la sélection au panier"
+
+#: woo-variations-table.php:1019
+msgid "Placeholder"
+msgstr ""
+
+# @ vartable
+#: woo-variations-table.php:1210 woo-variations-table.php:1214
+msgid "offer"
+msgstr "Offre spéciale"
+
+# @ vartable
+#: woo-variations-table.php:1274
+msgid "Backorder"
+msgstr "Rupture de stock"
+
+# @ vartable
+#: woo-variations-table.php:1276
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+# @ woocommerce-product-gift-wrap
+#: woo-variations-table.php:1354
+msgid "free"
+msgstr "Gratuit"
+
+# @ vartable
+#: woo-variations-table.php:1611
+msgid "Select All"
+msgstr "Tous selectionner"
+
+#: woo-variations-table.php:1718
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: woo-variations-table.php:1719
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: woo-variations-table.php:1720
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: woo-variations-table.php:1721
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: woo-variations-table.php:1722
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: woo-variations-table.php:1723
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: woo-variations-table.php:1724
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: woo-variations-table.php:1725
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: woo-variations-table.php:1726
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: woo-variations-table.php:1727
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: woo-variations-table.php:1799
+msgid "Go to cart"
+msgstr ""
+
+#: woo-variations-table.php:1799
+msgid "&times; product(s) added to cart"
+msgstr ""
+
+#: woo-variations-table.php:1834
+msgid "Variations Table Status"
+msgstr ""
+
+#: woo-variations-table.php:1836
+msgid "Default plugin settings"
+msgstr ""
+
+#: woo-variations-table.php:1837
+msgid "Force disabling"
+msgstr ""
+
+#: woo-variations-table.php:1838
+msgid "Force variations table"
+msgstr ""
+
+# @ vartable
+#: woo-variations-table.php:1843
+#, fuzzy
+msgid "Disable variations table <strong>header</strong>"
+msgstr "Désactiver table variations"
+
+#: woo-variations-table.php:1851
+msgid "Disable variations table <strong>offer/extra image</strong>"
+msgstr ""
+
+#: woo-variations-table.php:1859
+msgid "Skip custom variations table <strong>header</strong> set on settings"
+msgstr ""
+
+#: woo-variations-table.php:1865
+msgid ""
+"If set to yes it will replace the custom header that you may have set, on "
+"the settings page, with the default one, if you do not set a custom one for "
+"this product only."
+msgstr ""
+
+#: woo-variations-table.php:1870
+msgid "Custom variations table header html code"
+msgstr ""
+
+#: woo-variations-table.php:1872
+msgid "This will replace the table header with your custom html code"
+msgstr ""
+
+#: woo-variations-table.php:1876 woo-variations-table.php:1897
+msgid "Custom"
+msgstr ""
+
+#: woo-variations-table.php:1880
+msgid "Stock Status"
+msgstr ""
+
+#: woo-variations-table.php:1881
+msgid "Shipping Class"
+msgstr ""
+
+#: woo-variations-table.php:1888
+msgid "Default variations table ordering"
+msgstr ""
+
+#: woo-variations-table.php:1891
+msgid ""
+"This is a BETA feature, which means it needs more development and testing!"
+msgstr ""
+
+#: woo-variations-table.php:1895
+msgid "Default variations table ordering direction"
+msgstr ""
+
+#: woo-variations-table.php:1898
+msgid "Ascending"
+msgstr "Ascendant"
+
+#: woo-variations-table.php:1899
+msgid "Descending"
+msgstr "Descendant"
+
+# @ vartable
+#: woo-variations-table.php:1974 woo-variations-table.php:2063
+msgid "Display Extra Image"
+msgstr "Afficher une image supplémentaire"
+
+# @ vartable
+#: woo-variations-table.php:1978 woo-variations-table.php:2067
+#, fuzzy
+msgid "Default Settings"
+msgstr "Paramètres"
+
+# @ vartable
+#: woo-variations-table.php:1988 woo-variations-table.php:2077
+msgid "Override extra image"
+msgstr "Ajouter une image supplémentaire pour cette variation"
+
+#: woo-variations-table.php:1999 woo-variations-table.php:2088
+msgid "Quantity Steps"
+msgstr "Étapes des quantités"
+
+#: woo-variations-table.php:2013 woo-variations-table.php:2103
+msgid "Default Variation Quantity"
+msgstr "Quantité de Variation par défaut"
+
+#: woo-variations-table.php:2038 woo-variations-table.php:2132
+msgid "Hide this variation from the table"
+msgstr ""
+
+# @ vartable
+#: woo-variations-table.php:2305
+msgid "Open Media Manager"
+msgstr "Ouvrir la bibliothèque de médias"
+
+# @ vartable
+#: woo-variations-table.php:2338
+msgid "Settings"
+msgstr "Paramètres"
+
+# @ vartable
+#~ msgid ""
+#~ "Enabling this will disable the stock quantity check when adding to cart "
+#~ "via the plugin"
+#~ msgstr ""
+#~ "Désactive la vérification de quantité lors de l'ajout au panier via le "
+#~ "plugin"
+
+# @ vartable
+#~ msgid "Add to Wishlist"
+#~ msgstr "Ajouter l'icône liste d'envies (YITH WooCommerce Wishlist)"
+
+# @ vartable
+#~ msgid "Disable variations table"
+#~ msgstr "Désactiver table variations"

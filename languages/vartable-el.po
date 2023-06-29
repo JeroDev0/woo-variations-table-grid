@@ -1,0 +1,859 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Variations Table - Grid\n"
+"POT-Creation-Date: 2023-01-30 20:17+0200\n"
+"PO-Revision-Date: 2023-01-30 20:17+0200\n"
+"Last-Translator: Spyros Vlachopoulos <info@hostivate.com>\n"
+"Language-Team: Spyros Vlachopoulos <info@hostivate.com>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: grid_options_page.php:21 woo-variations-table.php:1878
+msgid "SKU"
+msgstr "Κωδικός προϊόντος"
+
+#: grid_options_page.php:22
+msgid "Thumbnail"
+msgstr "Μικρογραφία"
+
+#: grid_options_page.php:23
+msgid "Stock"
+msgstr "Διαθεσιμότητα"
+
+#: grid_options_page.php:24 woo-variations-table.php:1877
+msgid "Price"
+msgstr "Τιμή"
+
+#: grid_options_page.php:25
+msgid "Total"
+msgstr "Σύνολο"
+
+#: grid_options_page.php:26 woo-variations-table.php:1547
+msgid "Offer Image"
+msgstr "Επιπρόσθετη Εικόνα"
+
+#: grid_options_page.php:27
+msgid "Add to Cart Button"
+msgstr "Κουμπί \"Προσθήκη στο καλάθι\""
+
+#: grid_options_page.php:28
+msgid "Global Add to Cart Checkbox"
+msgstr "Γενικό Κουμπί \"Προσθήκη στο Καλάθι\""
+
+#: grid_options_page.php:29
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#: grid_options_page.php:30 woo-variations-table.php:1879
+msgid "Weight"
+msgstr "Βάρος"
+
+#: grid_options_page.php:31
+msgid "Dimensions"
+msgstr "Διαστάσεις"
+
+#: grid_options_page.php:32
+msgid "Whishlist"
+msgstr "Whishlist"
+
+#: grid_options_page.php:33
+msgid "Gift Wrap"
+msgstr "Συσκευασία δώρου"
+
+#: grid_options_page.php:34 woo-variations-table.php:2026
+#: woo-variations-table.php:2118
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: grid_options_page.php:35
+msgid "Shipping"
+msgstr "Αποστολή"
+
+#: grid_options_page.php:45
+#, fuzzy
+#| msgid "Reset data?"
+msgid "Reset"
+msgstr "Καθαρισμός ρυθμίσεων"
+
+#: grid_options_page.php:46
+#, fuzzy
+#| msgid "Delete data on deactivation?"
+msgid "Reset on deactivation "
+msgstr "Διαγραφή ρυθμίσεων κατά την απενεργοποίηση του plugin"
+
+#: grid_options_page.php:47
+msgid "Disable Globally"
+msgstr "Απενεργοποίηση σε ολόκληρη την ιστοσελίδα"
+
+#: grid_options_page.php:48
+msgid "Categories Exclusion"
+msgstr "Απενεργοποίηση στις κατηγορίες"
+
+#: grid_options_page.php:49
+msgid "Roles Exclusion"
+msgstr "Απενεργοποίηση για τους ρόλους"
+
+#: grid_options_page.php:50
+msgid "Thumbnail Size"
+msgstr "Μέγεθος μικρογραφίας"
+
+#: grid_options_page.php:51 grid_options_page.php:302
+msgid "In Stock Text"
+msgstr "Κείμενο όταν υπάρχει διαθεσιμότητα"
+
+#: grid_options_page.php:52 grid_options_page.php:311
+msgid "Backorder Text"
+msgstr "Προ-παραγγελία"
+
+#: grid_options_page.php:53 grid_options_page.php:319
+msgid "Backorder Style"
+msgstr "Στυλ μηνύματος παραγγελίας"
+
+#: grid_options_page.php:54 grid_options_page.php:330
+msgid "Out of Stock Text"
+msgstr "Κείμενο όταν ΔΕΝ υπάρχει διαθεσιμότητα"
+
+#: grid_options_page.php:55 grid_options_page.php:338
+msgid "Low Stock Text"
+msgstr "Κείμενο όταν υπάρχει χαμηλή διαθεσιμότητα"
+
+#: grid_options_page.php:56 grid_options_page.php:346
+msgid "Low Stock Threshold"
+msgstr "Πότε είναι η διαθεσιμότητα ενός προϊόντος χαμηλή; (αριθμός)"
+
+#: grid_options_page.php:57
+msgid "Hide zero priced variations"
+msgstr "Απόκρυψη παραλλαγών με μηδενική τιμή"
+
+#: grid_options_page.php:58 grid_options_page.php:365
+msgid "Hide Out of Stock Variations"
+msgstr "Απόκρυψη προϊόντων που δεν έχουν διαθεσιμνότητα"
+
+#: grid_options_page.php:59 grid_options_page.php:376
+msgid "Treat zero quantity variations as Out of Stock"
+msgstr "Οι μηδενικές ποσότητες θα αντιμετωπίζονται ως \"Εξαντλημένο προϊόν\""
+
+#: grid_options_page.php:60
+msgid "Offer Image File"
+msgstr "Αρχείο επιπρόσθετης εικόνας"
+
+#: grid_options_page.php:61
+msgid "Global Add to Cart Checkbox Status"
+msgstr "Κατάσταση του γενικού κουμπιού \"Προσθήκη στο καλάθι\""
+
+#: grid_options_page.php:62
+msgid "Global Add to Cart Button Position"
+msgstr "Τοποθεσία γενικού κουμπιού \"Προσθήκη στο καλάθι\""
+
+#: grid_options_page.php:63 grid_options_page.php:521
+msgid "Hide \"added to cart\" slide down notification"
+msgstr "Απόκρυψη της ειδοποίησης κατά την προσθήκη στο καλάθι"
+
+#: grid_options_page.php:64 grid_options_page.php:532
+#, fuzzy
+#| msgid "Hide \"added to cart\" slide down notification"
+msgid ""
+"Seconds that \"added to cart\" slide down notification should remain visible"
+msgstr "Απόκρυψη της ειδοποίησης κατά την προσθήκη στο καλάθι"
+
+#: grid_options_page.php:65
+msgid "Default Quantity"
+msgstr "Προεπιλεγμένη Ποσότητα"
+
+#: grid_options_page.php:66
+msgid "Display Quantity Controls ( - / + buttons)"
+msgstr "Προβολή κουμπιών μεταβολής της ποσότητας ( - / +)"
+
+#: grid_options_page.php:67
+msgid "Table position"
+msgstr "Θέση πίνακα"
+
+#: grid_options_page.php:68
+msgid "Table priority"
+msgstr "Προτεραιότητα πίνακα"
+
+#: grid_options_page.php:69
+msgid "Columns Order"
+msgstr "Σειρά στηλών"
+
+#: grid_options_page.php:70
+msgid "Enable Ajax Add to Cart"
+msgstr "ΕΝεργοποίηση AJAX \"Προσθήκη στο Καλάθι\""
+
+#: grid_options_page.php:71
+msgid "Description Inline"
+msgstr "Περιγραφή στη ίδια σειρά"
+
+#: grid_options_page.php:72
+msgid "Table Head"
+msgstr "Κεφαλίδα Πίνακα"
+
+#: grid_options_page.php:73 grid_options_page.php:621
+msgid "Custom Table Head"
+msgstr "Προσαρμοσμένη Κεφαλίδα Πίνακα"
+
+#: grid_options_page.php:74 grid_options_page.php:629
+msgid "Enable Sorting"
+msgstr "Ενεργοποίηση Στοιχισής"
+
+#: grid_options_page.php:75
+msgid "Enable Images Popup - Zoom, Linking"
+msgstr "Ενεργοποίηση της μεγέθυνσης των εικόνων"
+
+#: grid_options_page.php:76 grid_options_page.php:270
+msgid "Hide empty cells on mobile"
+msgstr "Κρύψε τα άδεια κελιά σε κινητά"
+
+#: grid_options_page.php:77 grid_options_page.php:280
+msgid "Disable mobile responsiveness"
+msgstr "Απενεργοποίηση της απεικόνισης για κινητά"
+
+#: grid_options_page.php:78
+msgid "Attributes Sorting Settings"
+msgstr "Ρυθμίσεις ταξινόμησης χαρακτηριστικών"
+
+#: grid_options_page.php:114
+msgid "Variations Table Grid Settings"
+msgstr "Μεταβλητά προϊόντα σε Πίνακα - Ρυθμίσεις"
+
+#: grid_options_page.php:120 grid_options_page.php:758
+msgid "Save Changes"
+msgstr "Αποθήκευση Ρυθμίσεων"
+
+#: grid_options_page.php:125
+#, fuzzy
+#| msgid "Default Settings"
+msgid "General Settings"
+msgstr "Προεπιλεγμένες Ρυθμίσεις"
+
+#: grid_options_page.php:126
+#, fuzzy
+#| msgid "Columns Order"
+msgid "Column Order"
+msgstr "Σειρά στηλών"
+
+#: grid_options_page.php:127 grid_options_page.php:690
+msgid "Sorting"
+msgstr "Στοίχιση"
+
+#: grid_options_page.php:128
+msgid "Debug"
+msgstr "Εργαλεία"
+
+#: grid_options_page.php:148
+msgid "Disable globally"
+msgstr "Απενεργοποίηση σε ολόκληρη την ιστοσελίδα"
+
+#: grid_options_page.php:150 grid_options_page.php:232
+#: grid_options_page.php:242 grid_options_page.php:273
+#: grid_options_page.php:283 grid_options_page.php:293
+#: grid_options_page.php:356 grid_options_page.php:367
+#: grid_options_page.php:378 grid_options_page.php:389
+#: grid_options_page.php:400 grid_options_page.php:411
+#: grid_options_page.php:421 grid_options_page.php:441
+#: grid_options_page.php:453 grid_options_page.php:464
+#: grid_options_page.php:475 grid_options_page.php:486
+#: grid_options_page.php:524 grid_options_page.php:543
+#: grid_options_page.php:556 grid_options_page.php:568
+#: grid_options_page.php:588 grid_options_page.php:599
+#: grid_options_page.php:611 grid_options_page.php:633
+#: grid_options_page.php:643 integrations/woocommerce-swatches.php:95
+#: integrations/yith-waiting-list.php:22 woo-variations-table.php:1846
+#: woo-variations-table.php:1854 woo-variations-table.php:1862
+#: woo-variations-table.php:1980 woo-variations-table.php:2069
+msgid "Yes"
+msgstr "Ναι"
+
+#: grid_options_page.php:151 grid_options_page.php:233
+#: grid_options_page.php:243 grid_options_page.php:272
+#: grid_options_page.php:282 grid_options_page.php:294
+#: grid_options_page.php:357 grid_options_page.php:368
+#: grid_options_page.php:379 grid_options_page.php:390
+#: grid_options_page.php:401 grid_options_page.php:412
+#: grid_options_page.php:422 grid_options_page.php:442
+#: grid_options_page.php:454 grid_options_page.php:465
+#: grid_options_page.php:476 grid_options_page.php:487
+#: grid_options_page.php:523 grid_options_page.php:544
+#: grid_options_page.php:557 grid_options_page.php:569
+#: grid_options_page.php:589 grid_options_page.php:600
+#: grid_options_page.php:612 grid_options_page.php:632
+#: grid_options_page.php:644 integrations/woocommerce-swatches.php:96
+#: integrations/yith-waiting-list.php:23 woo-variations-table.php:1845
+#: woo-variations-table.php:1853 woo-variations-table.php:1861
+#: woo-variations-table.php:1979 woo-variations-table.php:2068
+msgid "No"
+msgstr "Όχι"
+
+#: grid_options_page.php:161
+msgid "Disable in Categories"
+msgstr "Απενεργοποίηση στις Κατηγορίες"
+
+#: grid_options_page.php:173
+msgid "Disable for roles"
+msgstr "Απενεργοποίηση για τους ρόλους"
+
+#: grid_options_page.php:182
+msgid "Guest"
+msgstr "Επισκέπτης"
+
+#: grid_options_page.php:189
+msgid "Beside image"
+msgstr "Δίπλα στην εικόνα"
+
+#: grid_options_page.php:190
+msgid "Under Image"
+msgstr "Κάτω από την εικόνα"
+
+#: grid_options_page.php:191
+msgid "On product summary"
+msgstr "Στην περίληψη του προϊόντος"
+
+#: grid_options_page.php:192
+msgid "Product meta start"
+msgstr "Πριν τις μέτα πληροφορίες του προϊόντος"
+
+#: grid_options_page.php:193
+msgid "Product meta share"
+msgstr "Στην θέση κοινοποίησης"
+
+#: grid_options_page.php:194
+msgid "After product summary"
+msgstr "Μετά την περίληψη του προϊόντος"
+
+#: grid_options_page.php:195
+msgid "After product"
+msgstr "Μετά το προϊόν"
+
+#: grid_options_page.php:196
+msgid "After tabs"
+msgstr "Μετά τις καρτέλες"
+
+#: grid_options_page.php:197
+msgid "After main content"
+msgstr "Μετά το κυρίως περιεχόμενο"
+
+#: grid_options_page.php:203
+msgid "Table Position"
+msgstr "Θέση πίνακα"
+
+#: grid_options_page.php:218
+msgid "Table Priority"
+msgstr "Προτεραιότητα πίνακα"
+
+#: grid_options_page.php:227
+msgid "Enable / Disable Columns"
+msgstr "Ενεργοποίηση / Απενεργοποίηση Στηλών"
+
+#: grid_options_page.php:230
+msgid "Display SKU"
+msgstr "Προβολή Κωδικού Προϊόντος"
+
+#: grid_options_page.php:240
+msgid "Display Thumbnail"
+msgstr "Προβολή Μικρογραφίας"
+
+#: grid_options_page.php:251
+msgid "Thumbnail Width in Pixels"
+msgstr "Πλάτος Μικρογραφίας σε Pixels"
+
+#: grid_options_page.php:259
+msgid "Thumbnail Pop up - Zoom, Linking"
+msgstr "Μεγέθυνση εικόνας"
+
+#: grid_options_page.php:261
+msgid "Yes, enable zoom"
+msgstr "Ενεργοποίησε μεγέθυνσης"
+
+#: grid_options_page.php:262
+msgid "No, disable zoom"
+msgstr "Απενεργοποίηση μεγέθυνσης"
+
+#: grid_options_page.php:263
+msgid "Do not link at all"
+msgstr "Αφαίρεση συνδέσμου"
+
+#: grid_options_page.php:291
+msgid "Display Stock"
+msgstr "Προβολή Κατάστασης Διαθεσιμότητας"
+
+#: grid_options_page.php:304
+msgid ""
+"Please use %n to display the quantity of the stock left on the above field, "
+"eg: \"Just %n left\""
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε %n για να εμφανίσεται την διαθέσιμη ποσότητα, "
+"πχ. \"Μόνο %n διαθέσιμα\""
+
+#: grid_options_page.php:321
+msgid "text"
+msgstr "κειμένο"
+
+#: grid_options_page.php:322
+msgid "pill"
+msgstr "ετικέτα"
+
+#: grid_options_page.php:354
+msgid "Hide Zero Priced Variations"
+msgstr "Απόκρυψη Παραλλαγών με Μηδενική Τιμή"
+
+#: grid_options_page.php:387
+msgid "Display Price"
+msgstr "Προβολή Τιμής"
+
+#: grid_options_page.php:398
+msgid "Display Total"
+msgstr "Προβολή της συνολικής τιμής"
+
+#: grid_options_page.php:409
+msgid "Display Shiping Class"
+msgstr "Προβολή κλάσης μεταφορικών"
+
+#: grid_options_page.php:419
+msgid "Display Quantity Field"
+msgstr "Προβολή Πεδίου Ποσότητας"
+
+#: grid_options_page.php:430
+msgid "Default Quantity Value"
+msgstr "Προεπιλεγμένη τιμή ποσότητας"
+
+#: grid_options_page.php:439
+msgid "Display Quantity Controls"
+msgstr "Προβολή κουμπιών μεταβολής της ποσότητας"
+
+#: grid_options_page.php:451
+msgid "Display Weight"
+msgstr "Προβολή βάρους"
+
+#: grid_options_page.php:462
+msgid "Display Dimensions"
+msgstr "Προβολή διαστάσεων"
+
+#: grid_options_page.php:473
+msgid "Display Add To Cart"
+msgstr "Προβολή Κουμπιού \"Προσθήκη στο Καλάθι\""
+
+#: grid_options_page.php:484
+msgid "Display Global Add To Cart"
+msgstr "Προβολή Γενικού Κουμπιού \"Προσθήκη στο Καλάθι\""
+
+#: grid_options_page.php:488
+msgid ""
+"No, but keep the buttons (all quantities greater than 0 will be added to the "
+"cart)"
+msgstr ""
+"Όχι, αλλά κρατήστε τα κουμπιά (όλες οι ποσότητες μεγαλύτερες από 0, θα "
+"προστεθούν στο καλάθι)"
+
+#: grid_options_page.php:496
+msgid "Global Add To Cart Status"
+msgstr "Κατάσταση του γενικού κουμπιού \"Προσθήκη στο καλάθι\""
+
+#: grid_options_page.php:498
+msgid "Unchecked"
+msgstr "Απεπιλεγμένο"
+
+#: grid_options_page.php:499
+msgid "Checked"
+msgstr "Επιλεγμένο"
+
+#: grid_options_page.php:508
+msgid "Global Add To Cart Button Position"
+msgstr "Τοποθεσία γενικού κουμπίού \"Προσθήκη στο καλάθι\""
+
+#: grid_options_page.php:510
+msgid "Bottom"
+msgstr "Μετά τον πίνακα"
+
+#: grid_options_page.php:511
+msgid "Top"
+msgstr "Πριν τον πίνακα"
+
+#: grid_options_page.php:512
+msgid "Both"
+msgstr "Και στις δύο"
+
+#: grid_options_page.php:534
+msgid "Leave empty for the default 6 seconds"
+msgstr "Αφήστε κενό για τα προεπιλεγμένα 6 δευτερόλεπτα"
+
+#: grid_options_page.php:541
+msgid "Display Wishlist"
+msgstr "Προβολή Εικονιδίου \"Στα Αγαπημένα\""
+
+#: grid_options_page.php:554
+msgid "Display Gift Wrap Option"
+msgstr "Προβολή Επιλογών Συσκευασίας Δώρου"
+
+#: grid_options_page.php:566
+msgid "Display Image"
+msgstr "Προβολή Προωθητικής Εικόνας"
+
+#: grid_options_page.php:577
+msgid "Add Image"
+msgstr "Προσθήκη Εικόνας"
+
+#: grid_options_page.php:586
+msgid "Display Description"
+msgstr "Προβολή Περιγραφής"
+
+#: grid_options_page.php:597
+msgid "Display Description Inline"
+msgstr "Προβολή περιγραφής στη ίδια σειρά"
+
+#: grid_options_page.php:609
+msgid "Display Table Head"
+msgstr "Προβολή Κεφαλίδας Πίνακα"
+
+#: grid_options_page.php:630
+msgid ""
+"It will have strange results if you will also add description per variation"
+msgstr ""
+"Τα αποτελέσματα θα είναι παράξενα αν επίσης θέσετε περιγραφή στις παραλλαγές "
+"των προϊόντων"
+
+#: grid_options_page.php:641
+msgid "Enable AJAX"
+msgstr "Ενεργοποίηση AJAX"
+
+#: grid_options_page.php:658
+msgid "Variations"
+msgstr "Τιμές Μεταβλητών Προϊόντων"
+
+#: grid_options_page.php:664
+msgid "Order of the Table Columns"
+msgstr "Σειρά στηλών"
+
+#: grid_options_page.php:665
+msgid "Drag and drop the below list elements to order the columns of the table"
+msgstr ""
+"Σύρετε τα στοιχεία της παρακάτω λίστας για να ορίσετε την σειρά των στηλών"
+
+#: grid_options_page.php:689
+msgid "Attribute"
+msgstr "Ιδιότητα"
+
+#: grid_options_page.php:704
+msgid "Edit terms"
+msgstr "Επεξεργασία όρων"
+
+#: grid_options_page.php:710
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: grid_options_page.php:711
+msgid "Float"
+msgstr "Δεκαδικός"
+
+#: grid_options_page.php:712
+msgid "Integer"
+msgstr "Ακέραιος"
+
+#: grid_options_page.php:713
+msgid "String"
+msgstr "Κείμενο"
+
+#: grid_options_page.php:714
+msgid "String (case-insensitive)"
+msgstr "Κείμενο (χωρίς διάκριση πεζών και κεφαλαίων)"
+
+#: grid_options_page.php:715
+msgid "As set on the terms list"
+msgstr "Όπως ορίζεται στη λίστα όρων"
+
+#: grid_options_page.php:736
+msgid "Reset data?"
+msgstr "Καθαρισμός ρυθμίσεων"
+
+#: grid_options_page.php:739
+msgid "Warning this will reset your plugin's settings "
+msgstr "Αυτή η επιλογή θα σβήσει όλες τις ρυθμίσεις του plugin"
+
+#: grid_options_page.php:746
+msgid "Delete data on deactivation?"
+msgstr "Διαγραφή ρυθμίσεων κατά την απενεργοποίηση του plugin"
+
+#: grid_options_page.php:749
+msgid ""
+"Warning this will delete your plugin's settings when you deactivate your "
+"plugin "
+msgstr ""
+"Αυτή η επιλογή θα σβήσει όλες τις ρυθμίσεις του plugin κατά την "
+"απενεργοποίησή του"
+
+#: grid_options_page.php:765
+msgid "Hide this sidebar forever"
+msgstr "Απόκρυψη πλευρικής στήλης"
+
+#: grid_options_page.php:778
+msgid "More plugins to enhance your eshop"
+msgstr "Περισσότερα πρόσθετα για το κατάστημά σου"
+
+#: integrations/woocommerce-swatches.php:80
+msgid "Enable WooCommerce Swatches support"
+msgstr "Ενεργοποίηση υποστήριξης WooCommerce Swatches"
+
+#: integrations/woocommerce-swatches.php:93
+msgid "Enable WooCommerce Swatches Support"
+msgstr "Ενεργοποίηση υποστήριξης WooCommerce Swatches"
+
+#: integrations/yith-waiting-list.php:6
+msgid "Waiting List"
+msgstr "Λίστα αναμονής"
+
+#: integrations/yith-waiting-list.php:20
+msgid "Enable YITH Waiting List"
+msgstr "Ενεργοποίηση λίστας αναμονής YITH"
+
+#: woo-variations-table.php:468
+msgid "Admin only message: no product object found"
+msgstr "Μήνυμα μόνο για διαχειριστές: Δεν βρέθηκε αντικείμενο προϊόντος"
+
+#: woo-variations-table.php:475 woo-variations-table.php:598
+msgid "Admin only message: this is not a variable product"
+msgstr "Μήνυμα μόνο για διαχειριστές: Δεν βρέθηκε μεταβλητό προϊόν"
+
+#: woo-variations-table.php:551
+#, php-format
+msgid "Gift wrap this item for %s?"
+msgstr "Συσκευασία Δώρου (%s)"
+
+#: woo-variations-table.php:620
+msgid "Now go add some variable products!"
+msgstr "Τώρα μπορείτε να προσθέσετε μερικά μεταβλητά προϊόντα!"
+
+#: woo-variations-table.php:807 woo-variations-table.php:1507
+msgid "Add selected to cart"
+msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#: woo-variations-table.php:1019
+msgid "Placeholder"
+msgstr "Ενδεικτικό στοιχείο"
+
+#: woo-variations-table.php:1210 woo-variations-table.php:1214
+msgid "offer"
+msgstr "προσφορά"
+
+#: woo-variations-table.php:1274
+msgid "Backorder"
+msgstr "Προ-παραγγελία"
+
+#: woo-variations-table.php:1276
+msgid "Add to cart"
+msgstr "Στο καλάθι"
+
+#: woo-variations-table.php:1354
+msgid "free"
+msgstr "δωρεάν"
+
+#: woo-variations-table.php:1611
+msgid "Select All"
+msgstr "Επιλογή Όλων"
+
+#: woo-variations-table.php:1718
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Δε βρέθηκαν αποτελέσματα"
+
+#: woo-variations-table.php:1719
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr "Αποτυχία φόρτωσης"
+
+#: woo-variations-table.php:1720
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr "Παρακαλώ εισάγετε 1 ή περισσότερους χαρακτήρες"
+
+#: woo-variations-table.php:1721
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr "Παρακαλούμε, εισάγετε %qty% ή περισσότερους χαρακτήρες"
+
+#: woo-variations-table.php:1722
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr "Παρακαλώ διαγράψτε 1 χαρακτήρα"
+
+#: woo-variations-table.php:1723
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr "Παρακαλώ διαγράψτε %qty% χαρακτήρες"
+
+#: woo-variations-table.php:1724
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr "Μπορείτε να επιλέξετε μόνο 1 στοιχείο"
+
+#: woo-variations-table.php:1725
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr "Μπορείτε να επιλέξετε μόνο %qty% στοιχεία"
+
+#: woo-variations-table.php:1726
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr "Φόρτωση περισσότερων αποτελεσμάτων &hellip;"
+
+#: woo-variations-table.php:1727
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr "Αναζήτηση&hellip;"
+
+#: woo-variations-table.php:1799
+msgid "Go to cart"
+msgstr "Μετάβαση στο καλάθι"
+
+#: woo-variations-table.php:1799
+msgid "&times; product(s) added to cart"
+msgstr "&times; προϊόντα προστέθηκαν στο καλάθι"
+
+#: woo-variations-table.php:1834
+msgid "Variations Table Status"
+msgstr "Κατάσταση"
+
+#: woo-variations-table.php:1836
+msgid "Default plugin settings"
+msgstr "Προεπιλεγμένες ρυθμίσεις"
+
+#: woo-variations-table.php:1837
+msgid "Force disabling"
+msgstr "Αναγκαστική απενεργοποίηση"
+
+#: woo-variations-table.php:1838
+msgid "Force variations table"
+msgstr "Αναγκαστική ενεργοποίηση"
+
+#: woo-variations-table.php:1843
+msgid "Disable variations table <strong>header</strong>"
+msgstr "Απενεργοποίηση της <strong>κεφαλίδας</strong> του πίνακα"
+
+#: woo-variations-table.php:1851
+msgid "Disable variations table <strong>offer/extra image</strong>"
+msgstr "Απενεργοποίηση της <strong>πρόσθετης εικόνας</strong> του πίνακα"
+
+#: woo-variations-table.php:1859
+msgid "Skip custom variations table <strong>header</strong> set on settings"
+msgstr ""
+"Αγνόησε την προσαρμοσμένη κεφαλίδα του πίνακα που έχω θέσει στις ρυθμίσεις"
+
+#: woo-variations-table.php:1865
+msgid ""
+"If set to yes it will replace the custom header that you may have set, on "
+"the settings page, with the default one, if you do not set a custom one for "
+"this product only."
+msgstr ""
+"Αν είναι \"Ναι\", θα αντικατασταθεί η προσαρμοσμένη κεφαλίδα του πίνακα που "
+"μπορεί να έχεται θέσει στον πίνακα ρυθμίσεων, με τον προεπιλεγμένο, εφόσον "
+"δεν θέσετε προσαρμοσμένη κεφαλίδα για αυτό το προϊόν."
+
+#: woo-variations-table.php:1870
+msgid "Custom variations table header html code"
+msgstr "Προσαρμοσμένος html κώδικας κεφαλίδας πίνακα"
+
+#: woo-variations-table.php:1872
+msgid "This will replace the table header with your custom html code"
+msgstr ""
+"Εδώ μπορείτε να εισάγεται κώδικα html που θα αντικαταστήσει την κεφαλίδα του "
+"πίνακα"
+
+#: woo-variations-table.php:1876 woo-variations-table.php:1897
+msgid "Custom"
+msgstr "Προσαρμοσμένη"
+
+#: woo-variations-table.php:1880
+msgid "Stock Status"
+msgstr "Κατάσταση διαθεσιμότητας"
+
+#: woo-variations-table.php:1881
+msgid "Shipping Class"
+msgstr "Κλάση Μεταφορικών"
+
+#: woo-variations-table.php:1888
+msgid "Default variations table ordering"
+msgstr "Προεπιλογή στήλης στοίχισης του πίνακα"
+
+#: woo-variations-table.php:1891
+msgid ""
+"This is a BETA feature, which means it needs more development and testing!"
+msgstr ""
+"Αυτό είναι μια δοκιμαστική λειτουργία, που σημαίνει ότι χρειάζεται "
+"περισσότερη ανάπτυξη και δοκιμή!"
+
+#: woo-variations-table.php:1895
+msgid "Default variations table ordering direction"
+msgstr "Προεπιλογή κατεύθυνσης της στοίχισης του πίνακα"
+
+#: woo-variations-table.php:1898
+msgid "Ascending"
+msgstr "Αύξουσα"
+
+#: woo-variations-table.php:1899
+msgid "Descending"
+msgstr "Φθίνουσα"
+
+#: woo-variations-table.php:1974 woo-variations-table.php:2063
+msgid "Display Extra Image"
+msgstr "Προβολή προωθητικής εικόνας"
+
+#: woo-variations-table.php:1978 woo-variations-table.php:2067
+msgid "Default Settings"
+msgstr "Προεπιλεγμένες Ρυθμίσεις"
+
+#: woo-variations-table.php:1988 woo-variations-table.php:2077
+msgid "Override extra image"
+msgstr "Αντικατάσταση προωθητικής εικόνας"
+
+#: woo-variations-table.php:1999 woo-variations-table.php:2088
+msgid "Quantity Steps"
+msgstr "Βήματα αλλαγής της ποσότητας"
+
+#: woo-variations-table.php:2013 woo-variations-table.php:2103
+msgid "Default Variation Quantity"
+msgstr "Προεπιλεγμένη ποσότητα"
+
+#: woo-variations-table.php:2038 woo-variations-table.php:2132
+msgid "Hide this variation from the table"
+msgstr "Απόκρυψη μεταβλητού προϊόντος από τον πίνακα"
+
+#: woo-variations-table.php:2305
+msgid "Open Media Manager"
+msgstr "Άνοιγμα της Διαχείρισης Πολυμέσων"
+
+#: woo-variations-table.php:2338
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#~ msgid ""
+#~ "Enabling this will disable the stock quantity check when adding to cart "
+#~ "via the plugin"
+#~ msgstr ""
+#~ "Με την ενεργοποίηση του  AJAX δεν είναι δυνατός ο έλεγχος των διαθέσιμων "
+#~ "προσοτήτων κατά την προσθήκη στο καλάθι"
+
+#~ msgid "Add to Wishlist"
+#~ msgstr "Προσθήκη στα Αγαπημένα"
+
+#~ msgid "Disable variations table"
+#~ msgstr "Απενεργοποίηση του πίνακα μεταβλητών προϊόντων"
+
+#~ msgid "Enable Responsive Table (mobile friendly)"
+#~ msgstr "Ενεργοποίηση Responsive Πίνακα (φιλικό προς τις κινητές συσκευές)"
+
+#~ msgid "Enable Responsive Table"
+#~ msgstr "Ενεργοποίηση Responsive Πίνακα"
+
+#~ msgid "Enabling this will make the table mobile friendly"
+#~ msgstr ""
+#~ "Ενεργοποιώντας αυτήν την επιλογή ο πίνακας θα προσαρμόζεται σε κινητές "
+#~ "συσκευές"

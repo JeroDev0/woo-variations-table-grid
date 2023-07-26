@@ -1697,18 +1697,16 @@ function vt_woocommerce_variable_add_to_cart($allsets) {
 	$out .= $vartable_after_table;
 	$out .= $woocommerce_product_meta_end;
 
-	if ($vartable_head == 1 && get_post_meta($product->get_id() , 'disable_variations_table_header', true) != 1) {
+	if ($vartable_head == 1 && get_post_meta($product->get_id(), 'disable_variations_table_header', true) != 1) {
 
 		// order header
 		$headenames = vt_fields_func();
 		$headenames['vartable_cart'] = '';
 		$headenames = apply_filters('vartable_headenames', $headenames, $product->get_id());
 		$orderedheader = array();
-
-
+	
 		if (is_array($vartable_order)) {
-
-			if ($anyextraimg == 1 && get_post_meta($product->get_id() , 'disable_variations_table_offer', true) != 1) {
+			if ($anyextraimg == 1 && get_post_meta($product->get_id(), 'disable_variations_table_offer', true) != 1) {
 				$vartable_order['vartable_offer'] = __('Offer Image', 'vartable');
 			}
 			$vi = 0;
@@ -1732,57 +1730,59 @@ function vt_woocommerce_variable_add_to_cart($allsets) {
 				if ($vokey == 'vartable_shp_class') {
 					$sortingval = ' data-sort="string" ';
 				}
-
-				if ((isset($ {
-					$vokey
-				}) && $ {
-					$vokey
-				} == 1) || ($vokey == 'vartable_offer' && $anyextraimg == 1) || $vokey == 'vartable_variations') {
-
+	
+				if ((isset(${$vokey}) && ${$vokey} == 1) || ($vokey == 'vartable_offer' && $anyextraimg == 1) || $vokey == 'vartable_variations') {
+	
 					if ($vokey == 'vartable_wishlist' && defined('YITH_WCWL') == false) {
 						continue;
 					}
-
+	
 					if ($vokey == 'vartable_variations') {
-
 						$orderedheader[$vokey] = '';
-
+	
 						foreach ($attr_ordernames as $attrslug => $attrval) {
-
 							ob_start();
-							do_action('vartable_variations_th', $product->get_id() , $attrslug);
+							do_action('vartable_variations_th', $product->get_id(), $attrslug);
 							$vartable_variations_th = ob_get_clean();
-
-
-							$attr_key = str_replace( '-', '_', $attrslug );
-							if ( isset( $vartable_tax_sort[ $attr_key ] ) ) {
-								if ( $vartable_tax_sort[ $attr_key ] == 'preset' ) {
+	
+							$attr_key = str_replace('-', '_', $attrslug);
+							if (isset($vartable_tax_sort[$attr_key])) {
+								if ($vartable_tax_sort[$attr_key] == 'preset') {
 									$sortingval = 'data-sort="int"';
-								} elseif ( $vartable_tax_sort[ $attr_key ] != '-1' ) {
-									$sortingval = 'data-sort="'. $vartable_tax_sort[ $attr_key ] .'"';
+								} elseif ($vartable_tax_sort[$attr_key] != '-1') {
+									$sortingval = 'data-sort="' . $vartable_tax_sort[$attr_key] . '"';
 								}
 							}
-
+	
 							$orderedheader[$vokey] .= '
-                  <th ' . $sortingval . ' class="' . $vokey . ' ' . $attrslug . '" ' . $vartable_variations_th . '>
-                    <span>
-                      ' . apply_filters('vartable_header_attributes_join', $attrval, $product->get_id() , $attrslug) . '
-                    </span>
-                  </th>
-                  ';
+							  <th ' . $sortingval . ' class="' . $vokey . ' ' . $attrslug . '" ' . $vartable_variations_th . '>
+								<span>
+								  ' . apply_filters('vartable_header_attributes_join', $attrval, $product->get_id(), $attrslug) . '
+								</span>
+							  </th>
+							';
 						}
-
 					} elseif ($vokey == 'vartable_globalcart' && ($vartable_globalcart == 1 || $vartable_globalcart == 2)) {
-						$orderedheader[$vokey] = '<th ' . $sortingval . 'class="' . $vokey . ' ' . ($vartable_globalcart == 2 ? 'vartablehide' : '') . '"><div class="vartable_selectall button btn"><label for="vtselectall_' . $vtrand . '">' . apply_filters('vartable_header_text', __('Select All', 'vartable') , $product->get_id()) . ' <input class="vartable_selectall_check" id="vtselectall_' . $vtrand . '" type="checkbox" id="selecctall"/></label></div></th>';
+						$orderedheader[$vokey] = '<th ' . $sortingval . 'class="' . $vokey . ' ' . ($vartable_globalcart == 2 ? 'vartablehide' : '') . '"><div class="vartable_selectall button btn"><label for="vtselectall_' . $vtrand . '">' . apply_filters('vartable_header_text', __('Select All', 'vartable'), $product->get_id()) . ' <input class="vartable_selectall_check" id="vtselectall_' . $vtrand . '" type="checkbox" id="selecctall"/></label></div></th>';
 					} else {
 						$orderedheader[$vokey] = '<th ' . $sortingval . ' class="' . $vokey . '" ><span>' . apply_filters('vartable_header_text', $headenames[$vokey], $product->get_id()) . '</span></th>';
 					}
 				}
-				
-				$orderedheader = apply_filters( 'header_'.$vokey, $orderedheader, $headenames, $sortingval, $vokey, $product );
+	
+				$orderedheader = apply_filters('header_' . $vokey, $orderedheader, $headenames, $sortingval, $vokey, $product);
 				$vi++;
 			}
 		}
+	
+		// Ordenar $orderedheader alfabéticamente (por los valores), conservando las claves
+		asort($orderedheader);
+	
+		// Mostrar la tabla con los elementos ordenados
+		foreach ($orderedheader as $vokey => $header_element) {
+			echo $header_element;
+		}
+
+	}
 
 		if ($anyextraimg == 0) {
 			unset($orderedheader['vartable_offer']);
